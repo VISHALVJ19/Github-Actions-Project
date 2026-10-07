@@ -27,6 +27,7 @@ jobs:
 
   security-check:
     runs-on: ubuntu-latest
+    needs: compiled
 
     steps:
       - uses: actions/checkout@v4
